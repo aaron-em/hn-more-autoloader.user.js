@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        HN "More" autoloader
 // @namespace   http://me.aaron-miller.me/userscripts/hn-more-autoloader
-// @description When Hacker News lists a user's comments, the "More" links suffixed to each page invoke lambdas which expire rapidly enough that actually reading a page's worth of (worthwhile) comments incurs significant risk that the lambda will have expired by the time you reach the bottom of the page. This breaks the "More" chain to the extent that one is required to start over from the beginning, which is really annoying. Hence, a script which preloads the "More" pages and appends their content to the first page's DOM.
+// @description When Hacker News lists a user's comments, the "More" links suffixed to each page invoke lambdas which expire rapidly enough that actually reading a page's worth of (worthwhile) comments incurs significant risk that the lambda will have expired by the time you reach the bottom of the page. This breaks the "More" chain to the extent that one is required to start over from the beginning, which is really annoying. Hence, a script which preloads the "More" pages and appends their content to the first page's DOM. (See https://github.com/aaron-em/hn-more-autoloader.user.js/README.md for more.)
 // @include     https://news.ycombinator.com/threads?id=*
 // @version     1.0
 // @grant       unsafeWindow
