@@ -5,8 +5,8 @@
 // @include     https://news.ycombinator.com/threads?id=*
 // @version     1
 // @grant       none
-// @downloadURL ...
-// @updateURL   ...
+// @downloadURL https://github.com/aaron-em/hn-more-autoloader.user.js/raw/master/hn-more-autoloader.user.js
+// @updateURL   https://github.com/aaron-em/hn-more-autoloader.user.js/raw/master/hn-more-autoloader.user.js
 // ==/UserScript==
 
 function findMoreLink() {
